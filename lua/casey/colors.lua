@@ -5,8 +5,8 @@ colors.get_colors = function()
     if vim.o.background == 'dark' then
         mycolors = {
             vscNone = 'NONE',
-            -- vscFront = '#807e6a',
-            vscFront = '#8c8b7c', -- new
+            vscFront = '#807e6a',
+            -- vscFront = '#8c8b7c', -- new
             vscBack = '#101010',
 
             vscTabCurrent = '#1E1E1E',
@@ -78,16 +78,19 @@ colors.get_colors = function()
 
             -- Yellow
             -- vscBlueGreen = '#C7C99D',
-            -- vscBlueGreen = '#807e6a', casey
-            vscBlueGreen = '#8c8b7c', -- new
-            vscDarkYellow = '#70807e',
+            -- vscBlueGreen = '#807e6a', casey brown
+            -- vscBlueGreen = '#8c8b7c', -- new
+            vscBlueGreen = '#78805e',
+            -- vscDarkYellow = '#70807e',
+            vscDarkYellow = '#5b6e5d',
             vscYellowOrange = '#8555d5',
             vscYellow = '#807e6a',
             -- Green
             vscGreen = '#78804e',
             -- Red
             -- vscRed = '#8c4f4d',
-            vscRed = '#8c4f4d',
+            -- vscRed = '#8c4f4d',
+            vscRed = '#8a5f4e',
             -- Orange
             vscOrange = '#807e6a',
 

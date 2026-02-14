@@ -19,7 +19,7 @@ else
     colors.bg2 = '#E4E4E4'
     colors.fg = '#343434'
     colors.red = '#FF0000'
-    colors.green = '#008000'
+    colors.green = '#B1D29B'
     colors.blue = '#AF00DB'
     colors.lightblue = '#0451A5'
     colors.yellow = '#ffaf00'
@@ -27,8 +27,8 @@ else
 end
 
 casey.normal = {
-    a = { fg = vim.o.background == 'dark' and colors.bg or colors.fg, bg = colors.blue, gui = 'bold' },
-    b = { fg = colors.blue, bg = config.opts.transparent and 'NONE' or colors.bg2 },
+    a = { fg = vim.o.background == 'dark' and colors.bg or colors.fg, bg = colors.green, gui = 'bold' },
+    b = { fg = colors.green, bg = config.opts.transparent and 'NONE' or colors.bg2 },
     c = { fg = colors.fg, bg = config.opts.transparent and 'NONE' or colors.bg },
 }
 
