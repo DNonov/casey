@@ -64,7 +64,8 @@ colors.get_colors = function()
 
 
             --vscBlue = '#6c6e75',
-            vscBlue = '#857555',
+            -- now vscBlue = '#857555',
+            vscBlue = '#5b6e5d',
             vscLightBlue = '#807e6a',
             vscMediumBlue = '#807e6a',
 
@@ -82,7 +83,8 @@ colors.get_colors = function()
             -- vscBlueGreen = '#8c8b7c', -- new
             vscBlueGreen = '#78805e',
             -- vscDarkYellow = '#70807e',
-            vscDarkYellow = '#5b6e5d',
+            -- now vscDarkYellow = '#5b6e5d',
+            vscDarkYellow = '#857555',
             vscYellowOrange = '#8555d5',
             vscYellow = '#807e6a',
             -- Green
